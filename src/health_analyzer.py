@@ -22,7 +22,7 @@ class HealthAnalyzer:
 
     def blood_pressure_regression(self):
 
-        x = self.data[["age", "weight"]]
+        x = self.data[["age"]]
         y = self.data["systolic_bp"]
 
         model = LinearRegression()
